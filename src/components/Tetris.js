@@ -33,20 +33,11 @@ const Tetris = () => {
 
   console.log("re-render");
 
-  const movePlayer = dir => {
+  const movePlayer = (dir) => {
     if (!checkCollision(player, stage, { x: dir, y: 0 })) {
       updatePlayerPos({ x: dir, y: 0 });
     }
   }; //dir=direction
-
-  // const keyUp = ({ keyCode }) => {
-  //   if (!gameOver) {
-  //     // Activate the interval again when user releases down arrow.
-  //     if (keyCode === 40) {
-  //       setDropTime(1000 / (level + 1));
-  //     }
-  //   }
-  // };
 
   const startGame = () => {
     //reset everything
@@ -62,7 +53,7 @@ const Tetris = () => {
   const drop = () => {
     //increase level when play has cleared 10 rows
     if (rows > (level + 1) * 10) {
-      setLevel(prev => prev + 1);
+      setLevel((prev) => prev + 1);
 
       //for increase speed
       setDropTime(1000 / (level + 1) + 200);
@@ -122,7 +113,7 @@ const Tetris = () => {
     <StyledTetrisWrapper
       role="button"
       tabIndex="0"
-      onKeyDown={e => move(e)}
+      onKeyDown={(e) => move(e)}
       onKeyUp={keyUp}
     >
       <StyledTetris>
