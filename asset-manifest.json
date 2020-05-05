@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/tetris-game-react/static/js/main.45550493.chunk.js",
+    "main.js.map": "/tetris-game-react/static/js/main.45550493.chunk.js.map",
+    "runtime~main.js": "/tetris-game-react/static/js/runtime~main.5ab86a1e.js",
+    "runtime~main.js.map": "/tetris-game-react/static/js/runtime~main.5ab86a1e.js.map",
+    "static/js/2.de0aaf91.chunk.js": "/tetris-game-react/static/js/2.de0aaf91.chunk.js",
+    "static/js/2.de0aaf91.chunk.js.map": "/tetris-game-react/static/js/2.de0aaf91.chunk.js.map",
+    "index.html": "/tetris-game-react/index.html",
+    "precache-manifest.96d06df5417753c63cd8df0a83f3c75c.js": "/tetris-game-react/precache-manifest.96d06df5417753c63cd8df0a83f3c75c.js",
+    "service-worker.js": "/tetris-game-react/service-worker.js",
+    "static/media/pocoyo.jpg": "/tetris-game-react/static/media/pocoyo.3bfdb343.jpg"
+  }
+}
